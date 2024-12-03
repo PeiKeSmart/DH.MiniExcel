@@ -1,3 +1,3 @@
-﻿# Pek.WAF - WAF防火墙
+﻿# DH.MiniExcel - Excel处理库
 
-基于DH框架的Kestrel Web 服务器的基本 WAF库
+基于DH框架的Excel处理库
