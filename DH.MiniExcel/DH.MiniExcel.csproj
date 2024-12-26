@@ -49,7 +49,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="MiniExcel" Version="1.36.0" />
-    <PackageReference Include="Pek.Common" Version="4.0.2024.1226-beta0851" />
+    <PackageReference Include="Pek.Common" Version="4.0.2024.1226-beta1139" />
   </ItemGroup>
 
   <ItemGroup>
