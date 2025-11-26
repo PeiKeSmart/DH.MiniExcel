@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFrameworks>net9.0;net10.0</TargetFrameworks>
     <OutputType>Library</OutputType>
     <RootNamespace>MiniExcel</RootNamespace>
     <AssemblyTitle>Excel处理库</AssemblyTitle>
     <Description>基于DH框架的Excel处理库。基于https://github.com/mini-software/MiniExcel</Description>
     <Company>湖北登灏科技有限公司</Company>
-    <Copyright>©2020-2024 湖北登灏科技有限公司</Copyright>
-    <VersionPrefix>4.01</VersionPrefix>
+    <Copyright>©2020-2025 湖北登灏科技有限公司</Copyright>
+    <VersionPrefix>4.16</VersionPrefix>
     <VersionSuffix>$([System.DateTime]::Now.ToString(`yyyy.MMdd`))</VersionSuffix>
     <Version>$(VersionPrefix).$(VersionSuffix)</Version>
     <FileVersion>$(Version)</FileVersion>
@@ -49,8 +49,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="MiniExcel" Version="1.41.3" />
-    <PackageReference Include="Pek.Common" Version="4.14.2025.818-beta1221" />
+    <PackageReference Include="MiniExcel" Version="1.42.0" />
+    <PackageReference Include="Pek.Common" Version="4.16.2025.1117-beta0408" />
   </ItemGroup>
 
   <ItemGroup>
