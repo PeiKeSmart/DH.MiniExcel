@@ -2,9 +2,9 @@
   <PropertyGroup>
     <TargetFrameworks>net9.0;net10.0</TargetFrameworks>
     <OutputType>Library</OutputType>
-    <RootNamespace>MiniWord</RootNamespace>
-    <AssemblyTitle>Word处理库</AssemblyTitle>
-    <Description>基于DH框架的Word处理库。基于https://github.com/mini-software/MiniWord</Description>
+    <RootNamespace>MiniExcel</RootNamespace>
+    <AssemblyTitle>Excel处理库</AssemblyTitle>
+    <Description>基于DH框架的Excel处理库。基于https://github.com/mini-software/MiniExcel</Description>
     <Company>湖北登灏科技有限公司</Company>
     <Copyright>©2020-2026 湖北登灏科技有限公司</Copyright>
     <VersionPrefix>4.22</VersionPrefix>
@@ -49,7 +49,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="MiniWord" Version="0.9.2" />
+    <PackageReference Include="MiniExcel" Version="1.43.0" />
     <PackageReference Include="Pek.Common" Version="4.22.2026.416-beta1017" />
   </ItemGroup>
 

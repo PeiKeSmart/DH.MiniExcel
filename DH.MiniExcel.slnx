@@ -8,5 +8,5 @@
     <File Path="NuGet.config" />
     <File Path="Readme.MD" />
   </Folder>
-  <Project Path="Pek.MiniWord/Pek.MiniWord.csproj" />
+  <Project Path="DH.MiniExcel/DH.MiniExcel.csproj" />
 </Solution>

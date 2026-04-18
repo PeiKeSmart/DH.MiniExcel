@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-        - 'Pek.MiniWord/**'
+        - 'DH.MiniExcel/**'
   pull_request:
     branches: [ main ]
     paths:
-        - 'Pek.MiniWord/**'
+        - 'DH.MiniExcel/**'
   workflow_dispatch:
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
         dotnet build -c Release --version-suffix ${{ env.VERSION }}
     - name: Pack
       run: |
-        dotnet pack --no-build --version-suffix ${{ env.VERSION }} -c Release -o out Pek.MiniWord/Pek.MiniWord.csproj
+        dotnet pack --no-build --version-suffix ${{ env.VERSION }} -c Release -o out DH.MiniExcel/DH.MiniExcel.csproj
 
     - name: Publish
       run: |
